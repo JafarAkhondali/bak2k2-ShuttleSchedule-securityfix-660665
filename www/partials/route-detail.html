@@ -1,0 +1,25 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left quarter">
+        <a class="topcoat-icon-button--quiet back-button" href="" ng-click="back()">
+            <span class="topcoat-icon topcoat-icon--back"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
+        <h1 class="">{{route.name}}</h1>
+    </div>
+</div>
+
+<div class='details'>
+    <!--<img ng-src="pics/{{employee.pic}}" class="employee-image">-->
+    <div class="topcoat-list__container scroller" style="top:69px;">
+        <ul class="topcoat-list list">
+            <li ng-repeat="time in route.timings | filter:query | orderBy:orderProp" class="topcoat-list__item">
+                <a ng-click="addEventToCalendar(time)">
+                    <p class="center">{{time}}</p>
+                </a>
+                    <!--<span class="chevron"></span><span class="count">{{employee.reports}}</span>-->
+            </li>
+        </ul>
+    </div>
+</div>
+                
