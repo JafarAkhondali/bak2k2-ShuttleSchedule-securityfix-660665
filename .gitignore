@@ -1,1 +1,7 @@
-platforms/*
+*.swp
+*.jar
+*.iso
+*.swo
+.idea
+
+platforms/
