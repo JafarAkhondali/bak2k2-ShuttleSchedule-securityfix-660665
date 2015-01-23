@@ -2,7 +2,7 @@
 *.jar
 *.iso
 *.swo
-.idea
+.idea/
 *.iml
 
 platforms/
