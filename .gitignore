@@ -3,5 +3,6 @@
 *.iso
 *.swo
 .idea
+*.iml
 
 platforms/
