@@ -6,6 +6,8 @@
 *.iml
 .cordova/
 .idea/
+.cordova1/
+.idea1/
 
 
 platforms/
