@@ -4,5 +4,8 @@
 *.swo
 .idea/
 *.iml
+.cordova/
+.idea/*
+
 
 platforms/
